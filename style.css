@@ -71,10 +71,17 @@ li input {
 }
 li button {
     margin-left: auto;
-    padding: 5px;
+    padding: 4px;
+    border-style: none;
+    border: 1px solid #333;
+    border-radius: 5px;
 }
 button img {
-    width: 40px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
 }
 li span {
     font-size: 25px;
